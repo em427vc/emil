@@ -1,5 +1,5 @@
 # Set the default behavior, in case people don't have core.autocrlf set.
 * text=auto
-*.c text eol=lf
-*.h text eol=lf
-*.mak text eol=lf
+*.c text eol=crlf
+*.h text eol=crlf
+*.mak text eol=crlf
