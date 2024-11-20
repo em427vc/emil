@@ -13,7 +13,7 @@
 #*******************************************************************************
 
 # Not used for standard build, used when lint 
-# for specific components is needed
+# for specific components is  needed
 
 ifeq ($(ped_lint), true)
 	lint_ped_app = $(ped_fw_src)
