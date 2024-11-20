@@ -1,25 +1,5 @@
 # Set the default behavior, in case people don't have core.autocrlf set.
 * text=auto
-
-# Declare files that will always have CRLF line endings on checkout.
-*.c text eol=crlf
-*.h text eol=crlf
-*.cpp text eol=crlf
-*.hpp text eol=crlf
-*.py text eol=crlf
-*.mak text eol=crlf
-*.bat text eol=crlf
-*.json text eol=crlf
-*.md text eol=crlf
-
-# Declare files that will always have LF line endings on checkout.
-*.sh text eol=lf
-.gitattributes text eol=lf
-.gitignore text eol=lf
-
-# Denote all files that are truly binary and should not be modified.
-*.png binary
-*.jpg binary
-*.pdf binary
-*.xlsx binary
-*.docx binary
+*.c text eol=lf
+*.h text eol=lf
+*.mak text eol=lf
