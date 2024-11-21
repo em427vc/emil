@@ -1,0 +1,72 @@
+Info structures
+####################################################
+DCAPPL_TestingSetup
+DCAPPL_eDcApplTestInterface.ucMode
+
+FSF_CDT_ptSensorDataInfoAccess   --FOR MUD1, NTC sensor
+
+MOC_sDRUM  -FOR raw ADC values 
+####################################################
+
+
+ERROR BUFFERS
+####################################################
+DCERRMErrorBuffer_Components
+
+DCERRMErrorBuffer_Channel1
+DCERRMErrorBuffer_Channel2
+
+DCERRMWarningBuffer_Channel1
+DCERRMWarningBuffer_Channel2
+
+ECUDRVR_EH_Driver_1_ErrorList
+ECUDRVR_EH_Driver_2_ErrorList
+
+DCERRM_requestToClearAllErrors
+ECUDRVR_EH_ptDriverErrListAccess
+
+####################################################
+
+#Utilization
+
+DCVER_tUtilization
+
+DCAPPL_TimeStats
+
+
+
+
+SETTING  DRIVE
+####################################################
+
+BISAPP_uiPlcMotorNum
+
+BISAPP_ulPlcMotorParaId
+
+DCPARM_VariantID_Data --BV & CV
+####################################################
+
+
+BIS
+0 DCMOC_Drive_1 -drum
+1 DCMOC_Drive_2 -pump/
+
+
+in MUD1 (MIS) 
+0 DCMOC_Drive_1 --compressor
+1 DCMOC_Drive_2  -drum
+
+MOC_sDRUM
+####################################################
+
+DCPARM_VariantID_Data --board variants and variant code
+
+
+
+DCERRM_isMotorStopped_from_DCDRVR
+
+DCAPPL_isDiagnostiServiceRequested
+
+
+
+
