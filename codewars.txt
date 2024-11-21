@@ -1,0 +1,21 @@
+
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+char *create_phone_number(char phnum[15], const unsigned char nums[10])
+{
+  sprintf(phnum, "(%d%d%d) %d%d%d-%d%d%d%d", nums[0], nums[1], nums[2], nums[3], nums[4],                                           nums[5], nums[6], nums[7], nums[8], nums[9]);
+    return phnum;
+}
+
+int main() {
+    // Write C code here
+    char nums[10]={1,2,3,4,5,6,7,8,9};
+    char phnum[15];
+   char *a= create_phone_number(phnum,nums);
+    printf("%s   \n %d ",a,strlen(a));
+    
+    //return 0;
+}
